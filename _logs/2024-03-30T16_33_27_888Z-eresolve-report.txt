@@ -1,0 +1,42 @@
+'Log files:
+C:\Users\HimanshuKashyap\OneDrive\Documents\NodeProject\Cryptocurrency-Tracker\_logs\2024-03-30T16_33_27_888Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: cryptocurrency-tracker@0.0.0
+Found: react@17.0.2
+node_modules/react
+  react@"^17.0.2" from the root project
+  peer react@"^17.0.0 || ^18.0.0" from @mui/material@5.15.14
+  node_modules/@mui/material
+    @mui/material@"^5.15.14" from the root project
+  peer react@">=16.8.0" from @emotion/react@11.11.4
+  node_modules/@emotion/react
+    @emotion/react@"*" from the root project
+    peerOptional @emotion/react@"^11.5.0" from @mui/material@5.15.14
+    node_modules/@mui/material
+      @mui/material@"^5.15.14" from the root project
+    peer @emotion/react@"^11.0.0-rc.0" from @emotion/styled@11.11.5
+    node_modules/@emotion/styled
+      @emotion/styled@"*" from the root project
+      peerOptional @emotion/styled@"^11.3.0" from @mui/material@5.15.14
+      node_modules/@mui/material
+        @mui/material@"^5.15.14" from the root project
+  peer react@">=16.8.0" from @emotion/styled@11.11.5
+  node_modules/@emotion/styled
+    @emotion/styled@"*" from the root project
+    peerOptional @emotion/styled@"^11.3.0" from @mui/material@5.15.14
+    node_modules/@mui/material
+      @mui/material@"^5.15.14" from the root project
+
+Could not resolve dependency:
+peer react@"^18.2.0" from react-dom@18.2.0
+node_modules/react-dom
+  react-dom@"^18.2.0" from the root project
+  peer react-dom@"^17.0.0 || ^18.0.0" from @mui/material@5.15.14
+  node_modules/@mui/material
+    @mui/material@"^5.15.14" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.

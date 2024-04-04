@@ -1,0 +1,18 @@
+'Log files:
+C:\Users\HimanshuKashyap\OneDrive\Documents\NodeProject\Cryptocurrency-Tracker\_logs\2024-03-30T11_39_26_576Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: cryptocurrency-tracker@0.0.0
+Found: react@18.2.0
+node_modules/react
+  react@"^18.2.0" from the root project
+
+Could not resolve dependency:
+peer react@"^17.0.0" from @mui/styles@5.15.14
+node_modules/@mui/styles
+  @mui/styles@"*" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.

@@ -1,0 +1,620 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+[data-theme="light"] {
+  --bg-color: #ffffff;
+  --text-color: #333333;
+  --heading-color: #444444;
+}
+
+/* Dark mode styles */
+[data-theme="dark"] {
+  --bg-color: #333333;
+  --text-color: #ffffff;
+  --heading-color: #dddddd;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: montserrat;
+}
+
+body {
+  background-color: #14161a;
+}
+
+nav {
+  color: white;
+  height: 64px;
+}
+
+.navbar {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  color: gold;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+select {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 8px 14px; /* Adjust padding as needed */
+  font-size: 16px; /* Adjust font size as needed */
+  border: 1px solid hsl(0, 9%, 38%); /* Add border */
+  border-radius: 4px; /* Add border radius */
+  appearance: none; /* Remove default dropdown arrow (for some browsers) */
+  -webkit-appearance: none; /* Remove default dropdown arrow (for WebKit browsers) */
+  -moz-appearance: none;
+}
+
+select::after {
+  content: "\25BC"; /* Unicode character for down arrow */
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none; /* Prevent the arrow from being selectable */
+}
+
+.login{
+  cursor: pointer;
+  margin-left: 15px;
+  width: 90px;
+  height: 40px;
+  background-color: rgb(238, 188, 29);
+  color: black;
+  border: 1px solid black;
+  border-radius: 4px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.modal-container{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+}
+.modal{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 400px;
+  background-color: #424242;
+  border-radius: 5px;
+  padding-bottom: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.modal .head{
+  width: 100%;
+  display: flex;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+  height: 50px;
+}
+
+.head span{
+  width: 50%;
+  height: 100%;
+  line-height: 50px;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form input{
+  height: 50px;
+  width: 85%;
+  padding: 10px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.form button{
+  background-color: rgb(238, 188, 29);
+  color: black;
+  height: 40px;
+  width: 85%;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.googlebtn{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  width: 85%;
+}
+option {
+  font-size: 16px; /* Adjust font size as needed */
+  background-color: #333; /* Set background color */
+  padding: 8px;
+  border-radius: none; /* Adjust padding as needed */
+}
+
+.banner {
+  background-image: url("/banner2.jpg");
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner-container {
+  width: 100%;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.title {
+  display: flex;
+  height: 150px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.title h1 {
+  font-size: 3.75rem;
+  margin-bottom: 10px;
+}
+
+.title h5 {
+  font-weight: lighter;
+}
+
+.trending-coins {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.trending-coins img {
+  height: 90px;
+}
+
+.table-container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+}
+
+.table-title {
+  font-size: 35px;
+  margin: 20px;
+}
+
+#input {
+  width: 100%;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.table-search {
+  width: 100%;
+  height: 55px;
+  background-color: transparent;
+  padding: 10px 15px;
+  font-size: 15px;
+  border: 1px solid rgb(255, 255, 255, 0.5);
+  color: white;
+  border-radius: 5px;
+}
+
+label {
+  position: absolute;
+  left: 15px;
+  top: 17px;
+  z-index: -1;
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+
+.table-search:focus + label {
+  top: -17px;
+  opacity: 1;
+  font-size: 13px;
+  z-index: 2;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.image img {
+  height: 55px;
+}
+
+thead > tr {
+  background-color: rgb(238, 188, 29);
+  color: black;
+  height: 50px;
+}
+
+th{
+  padding: 16px;
+  text-align: right;
+}
+
+.coin-info{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.coin-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+.coin-detail span{
+  text-align: start;
+}
+
+.coin-detail span:first-child {
+  text-transform: uppercase;
+  font-size: 22px;
+}
+
+.coin-detail span:last-child {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+tr {
+  color: white;
+  height: 100px;
+  border-bottom: 1px solid rgb(255, 255, 255,0.3);
+}
+
+tbody tr:hover{
+  background-color: #131111;
+  cursor: pointer;
+}
+
+td{
+  padding: 16px;
+  text-align: right;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  gap: 2px;
+}
+
+.pagination button{
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  color: gold;
+  align-self: center;
+  background-color: transparent;
+  border: none;
+  font-size: 15px;
+}
+
+.pagination button:disabled{
+  opacity: 0.5;
+}
+
+.pagination button:hover{
+  background-color: rgb(255, 255, 255, 0.2);
+}
+svg{
+  height: 100%;
+}
+
+.loader{
+  width: 100%;
+  height: 5px;
+  background-color: linear-gradient(gold 50%,white);
+}
+
+.coinpage{
+  display: flex;
+}
+
+.coinpage .info{
+  width: 27%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  color: white;
+  border-right: 1px solid gray;
+  margin-top: 25px;
+  min-height: 100vh;
+}
+
+.info img{
+  height: 200px;
+}
+
+.info .name{
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+
+.info p{
+  padding: 25px;
+  letter-spacing: 0.00938em;
+  text-align: justify;
+  line-height: 1.75;
+}
+
+.market-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  padding: 25px;
+}
+
+.market-info span{
+  font-weight: bolder;  
+  font-size: 1.5rem;
+}
+
+.market-info > .rank,
+.market-info > .price,
+.market-info > .market-cap{
+  font-size: 1.5rem;
+  align-self: flex-start;
+}
+
+.chart{
+  width: 70%;
+  margin-top: 25px;
+  padding: 40px;
+}
+
+.btns{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 10px;
+}
+
+.btn{
+  width: 23%;
+  color: white;
+  border: 2px solid gold;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: gold;
+  color: black;
+}
+
+.alert{
+  position: fixed;
+  left: 50px;
+  bottom: 40px;
+  height: 50px;
+  min-width: 230px;
+  background-color: #f44336;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  z-index: 5;
+  transition: all 0.3s;
+}
+
+.alert span:first-child,.alert span:last-child {
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 6px;
+}
+
+.spinner{
+  width: 200px;
+  height: 200px;
+  border: 6px solid rgb(238, 188, 29);
+  border-left: white;
+  border-radius: 50%;
+  margin: auto;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.avatar{
+  margin-left: 20px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  color: black;
+  border: none;
+  border-radius: 50%;
+  background: rgb(238, 188, 29);
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.sidebar-container{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+}
+
+.sidebar{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: #14161a;
+  height: 100vh;
+  width: 300px;
+  z-index: 4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  transform: translateX(300px);
+  transition: transform 1s;
+}
+
+.sidebar.active{
+  transform: translateX(0);
+}
+
+.sidebar >.avatar{
+  margin-top: 30px;
+  height: 200px;
+  width: 200px;
+  font-size: 100px;
+}
+
+.sidebar >.logout{
+  background-color: rgb(238, 188, 29);
+  color: black;
+  font-weight: 500;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  width: 90%;
+}
+
+.watchlist{
+  width: 90%;
+  height: 330px;
+  text-align: center;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+  background-color: gray;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.addtowatchlist,.removefromwatchlist{
+  background-color: rgb(238, 188, 29);
+  color: black;
+  font-weight: 500;
+  border-radius: 5px;
+  padding: 15px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  width: 90%;
+}
+
+.removefromwatchlist{
+  background-color: transparent;
+  border: 2px solid rgb(238, 188, 29);
+  color: rgb(238, 188, 29);
+}
+
+.watchitem{
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(238, 188, 29);
+  color: black;
+}
+
+@media (max-width:1250px) {
+  .coinpage{
+    display: block;
+  }  
+  .coinpage .info{
+    width: 100%;
+    min-height: auto;
+  }
+  .chart{
+    width: 100%;
+  }
+  .market-info >.rank, .market-info>.price, .market-info>.market-cap{
+    align-self: center;
+  }
+}
+
+@media (max-width: 575px) {
+  .title h1{
+    font-size: 2.5rem;
+  }
+  .table-title{
+    font-size: 27px;
+  }
+  .btn{
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,205 @@
+'Log files:
+C:\Users\HimanshuKashyap\OneDrive\Documents\NodeProject\Cryptocurrency-Tracker\_logs\2024-03-30T16_22_01_608Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: @mui/styles@5.15.14
+Found: react@18.2.0
+node_modules/react
+  peer react@">=16.8.0" from @floating-ui/react-dom@2.0.8
+  node_modules/@floating-ui/react-dom
+    @floating-ui/react-dom@"^2.0.8" from @mui/base@5.0.0-beta.40
+    node_modules/@mui/base
+      @mui/base@"5.0.0-beta.40" from @mui/lab@5.0.0-alpha.169
+      node_modules/@mui/lab
+        @mui/lab@"^5.0.0-alpha.169" from the root project
+      @mui/base@"5.0.0-beta.40" from @mui/material@5.15.14
+      node_modules/@mui/material
+        peer @mui/material@">=5.15.0" from @mui/lab@5.0.0-alpha.169
+        node_modules/@mui/lab
+          @mui/lab@"^5.0.0-alpha.169" from the root project
+  peer react@"^17.0.0 || ^18.0.0" from @mui/base@5.0.0-beta.40
+  node_modules/@mui/base
+    @mui/base@"5.0.0-beta.40" from @mui/lab@5.0.0-alpha.169
+    node_modules/@mui/lab
+      @mui/lab@"^5.0.0-alpha.169" from the root project
+    @mui/base@"5.0.0-beta.40" from @mui/material@5.15.14
+    node_modules/@mui/material
+      peer @mui/material@">=5.15.0" from @mui/lab@5.0.0-alpha.169
+      node_modules/@mui/lab
+        @mui/lab@"^5.0.0-alpha.169" from the root project
+  peer react@"^17.0.0 || ^18.0.0" from @mui/lab@5.0.0-alpha.169
+  node_modules/@mui/lab
+    @mui/lab@"^5.0.0-alpha.169" from the root project
+  peer react@"^17.0.0 || ^18.0.0" from @mui/material@5.15.14
+  node_modules/@mui/material
+    peer @mui/material@">=5.15.0" from @mui/lab@5.0.0-alpha.169
+    node_modules/@mui/lab
+      @mui/lab@"^5.0.0-alpha.169" from the root project
+  peer react@"^17.0.0 || ^18.0.0" from @mui/private-theming@5.15.14
+  node_modules/@mui/private-theming
+    @mui/private-theming@"^5.15.14" from @mui/styles@5.15.14
+    node_modules/@mui/styles
+      @mui/styles@"^5.15.14" from the root project
+    @mui/private-theming@"^5.15.14" from @mui/system@5.15.14
+    node_modules/@mui/system
+      @mui/system@"^5.15.14" from @mui/lab@5.0.0-alpha.169
+      node_modules/@mui/lab
+        @mui/lab@"^5.0.0-alpha.169" from the root project
+      @mui/system@"^5.15.14" from @mui/material@5.15.14
+      node_modules/@mui/material
+        peer @mui/material@">=5.15.0" from @mui/lab@5.0.0-alpha.169
+        node_modules/@mui/lab
+          @mui/lab@"^5.0.0-alpha.169" from the root project
+  peer react@"^17.0.0 || ^18.0.0" from @mui/styled-engine@5.15.14
+  node_modules/@mui/styled-engine
+    @mui/styled-engine@"^5.15.14" from @mui/system@5.15.14
+    node_modules/@mui/system
+      @mui/system@"^5.15.14" from @mui/lab@5.0.0-alpha.169
+      node_modules/@mui/lab
+        @mui/lab@"^5.0.0-alpha.169" from the root project
+      @mui/system@"^5.15.14" from @mui/material@5.15.14
+      node_modules/@mui/material
+        peer @mui/material@">=5.15.0" from @mui/lab@5.0.0-alpha.169
+        node_modules/@mui/lab
+          @mui/lab@"^5.0.0-alpha.169" from the root project
+  peer react@"^17.0.0 || ^18.0.0" from @mui/system@5.15.14
+  node_modules/@mui/system
+    @mui/system@"^5.15.14" from @mui/lab@5.0.0-alpha.169
+    node_modules/@mui/lab
+      @mui/lab@"^5.0.0-alpha.169" from the root project
+    @mui/system@"^5.15.14" from @mui/material@5.15.14
+    node_modules/@mui/material
+      peer @mui/material@">=5.15.0" from @mui/lab@5.0.0-alpha.169
+      node_modules/@mui/lab
+        @mui/lab@"^5.0.0-alpha.169" from the root project
+  peer react@"^17.0.0 || ^18.0.0" from @mui/utils@5.15.14
+  node_modules/@mui/utils
+    @mui/utils@"^5.15.14" from @mui/base@5.0.0-beta.40
+    node_modules/@mui/base
+      @mui/base@"5.0.0-beta.40" from @mui/lab@5.0.0-alpha.169
+      node_modules/@mui/lab
+        @mui/lab@"^5.0.0-alpha.169" from the root project
+      @mui/base@"5.0.0-beta.40" from @mui/material@5.15.14
+      node_modules/@mui/material
+        peer @mui/material@">=5.15.0" from @mui/lab@5.0.0-alpha.169
+        node_modules/@mui/lab
+          @mui/lab@"^5.0.0-alpha.169" from the root project
+    @mui/utils@"^5.15.14" from @mui/lab@5.0.0-alpha.169
+    node_modules/@mui/lab
+      @mui/lab@"^5.0.0-alpha.169" from the root project
+    @mui/utils@"^5.15.14" from @mui/material@5.15.14
+    node_modules/@mui/material
+      peer @mui/material@">=5.15.0" from @mui/lab@5.0.0-alpha.169
+      node_modules/@mui/lab
+        @mui/lab@"^5.0.0-alpha.169" from the root project
+    @mui/utils@"^5.15.14" from @mui/private-theming@5.15.14
+    node_modules/@mui/private-theming
+      @mui/private-theming@"^5.15.14" from @mui/styles@5.15.14
+      node_modules/@mui/styles
+        @mui/styles@"^5.15.14" from the root project
+      @mui/private-theming@"^5.15.14" from @mui/system@5.15.14
+      node_modules/@mui/system
+        @mui/system@"^5.15.14" from @mui/lab@5.0.0-alpha.169
+        node_modules/@mui/lab
+          @mui/lab@"^5.0.0-alpha.169" from the root project
+        @mui/system@"^5.15.14" from @mui/material@5.15.14
+        node_modules/@mui/material
+          peer @mui/material@">=5.15.0" from @mui/lab@5.0.0-alpha.169
+          node_modules/@mui/lab
+            @mui/lab@"^5.0.0-alpha.169" from the root project
+    @mui/utils@"^5.15.14" from @mui/styles@5.15.14
+    node_modules/@mui/styles
+      @mui/styles@"^5.15.14" from the root project
+    @mui/utils@"^5.15.14" from @mui/system@5.15.14
+    node_modules/@mui/system
+      @mui/system@"^5.15.14" from @mui/lab@5.0.0-alpha.169
+      node_modules/@mui/lab
+        @mui/lab@"^5.0.0-alpha.169" from the root project
+      @mui/system@"^5.15.14" from @mui/material@5.15.14
+      node_modules/@mui/material
+        peer @mui/material@">=5.15.0" from @mui/lab@5.0.0-alpha.169
+        node_modules/@mui/lab
+          @mui/lab@"^5.0.0-alpha.169" from the root project
+  peer react@"^18.2.0" from react-dom@18.2.0
+  node_modules/react-dom
+    peer react-dom@">=16.8.0" from @floating-ui/react-dom@2.0.8
+    node_modules/@floating-ui/react-dom
+      @floating-ui/react-dom@"^2.0.8" from @mui/base@5.0.0-beta.40
+      node_modules/@mui/base
+        @mui/base@"5.0.0-beta.40" from @mui/lab@5.0.0-alpha.169
+        node_modules/@mui/lab
+          @mui/lab@"^5.0.0-alpha.169" from the root project
+        @mui/base@"5.0.0-beta.40" from @mui/material@5.15.14
+        node_modules/@mui/material
+          peer @mui/material@">=5.15.0" from @mui/lab@5.0.0-alpha.169
+          node_modules/@mui/lab
+            @mui/lab@"^5.0.0-alpha.169" from the root project
+    peer react-dom@"^17.0.0 || ^18.0.0" from @mui/base@5.0.0-beta.40
+    node_modules/@mui/base
+      @mui/base@"5.0.0-beta.40" from @mui/lab@5.0.0-alpha.169
+      node_modules/@mui/lab
+        @mui/lab@"^5.0.0-alpha.169" from the root project
+      @mui/base@"5.0.0-beta.40" from @mui/material@5.15.14
+      node_modules/@mui/material
+        peer @mui/material@">=5.15.0" from @mui/lab@5.0.0-alpha.169
+        node_modules/@mui/lab
+          @mui/lab@"^5.0.0-alpha.169" from the root project
+    peer react-dom@"^17.0.0 || ^18.0.0" from @mui/lab@5.0.0-alpha.169
+    node_modules/@mui/lab
+      @mui/lab@"^5.0.0-alpha.169" from the root project
+    peer react-dom@"^17.0.0 || ^18.0.0" from @mui/material@5.15.14
+    node_modules/@mui/material
+      peer @mui/material@">=5.15.0" from @mui/lab@5.0.0-alpha.169
+      node_modules/@mui/lab
+        @mui/lab@"^5.0.0-alpha.169" from the root project
+    peer react-dom@">=16.8" from react-router-dom@6.22.3
+    node_modules/react-router-dom
+      react-router-dom@"^6.22.3" from the root project
+    peer react-dom@">=16.6.0" from react-transition-group@4.4.5
+    node_modules/react-transition-group
+      react-transition-group@"^4.4.5" from @mui/material@5.15.14
+      node_modules/@mui/material
+        peer @mui/material@">=5.15.0" from @mui/lab@5.0.0-alpha.169
+        node_modules/@mui/lab
+          @mui/lab@"^5.0.0-alpha.169" from the root project
+    peer react-dom@">= 16.8.0" from styled-components@6.1.8
+    node_modules/styled-components
+      peer styled-components@"^6.0.0" from @mui/styled-engine-sc@6.0.0-alpha.18
+      node_modules/@mui/styled-engine-sc
+    react-dom@"^18.2.0" from the root project
+  peer react@">=16.8" from react-router@6.22.3
+  node_modules/react-router
+    react-router@"6.22.3" from react-router-dom@6.22.3
+    node_modules/react-router-dom
+      react-router-dom@"^6.22.3" from the root project
+  peer react@">=16.8" from react-router-dom@6.22.3
+  node_modules/react-router-dom
+    react-router-dom@"^6.22.3" from the root project
+  peer react@">=16.6.0" from react-transition-group@4.4.5
+  node_modules/react-transition-group
+    react-transition-group@"^4.4.5" from @mui/material@5.15.14
+    node_modules/@mui/material
+      peer @mui/material@">=5.15.0" from @mui/lab@5.0.0-alpha.169
+      node_modules/@mui/lab
+        @mui/lab@"^5.0.0-alpha.169" from the root project
+  peer react@">= 16.8.0" from styled-components@6.1.8
+  node_modules/styled-components
+    peer styled-components@"^6.0.0" from @mui/styled-engine-sc@6.0.0-alpha.18
+    node_modules/@mui/styled-engine-sc
+  react@"^18.2.0" from the root project
+
+Could not resolve dependency:
+peer react@"^17.0.0" from @mui/styles@5.15.14
+node_modules/@mui/styles
+  @mui/styles@"^5.15.14" from the root project
+
+Conflicting peer dependency: react@17.0.2
+node_modules/react
+  peer react@"^17.0.0" from @mui/styles@5.15.14
+  node_modules/@mui/styles
+    @mui/styles@"^5.15.14" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.
